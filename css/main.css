@@ -1,0 +1,50 @@
+/*SHARED*/
+:root {
+    /*colors*/
+    --almost-black: rgb(14, 14, 14);
+    --almost-white: rgb(237, 237, 237);
+}
+body {
+    font-family: sans-serif;
+    background-color: var(--almost-black);
+    color: var(--almost-white);
+}
+.header,
+.main p,
+.footer {
+    text-align: center;
+}
+
+/*HEADER*/
+.header-img {
+    height: auto;
+    width: 400px;
+}
+/*MAIN*/
+.recipes-list-section a {
+    font-size: 20px;
+    color: var(--almost-white);
+}
+.recipes-list-section li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+.main p {
+    font-size: 16px;
+}
+.main p span {
+    font-weight: bold;
+}
+/*FOOTER*/
+.footer p {
+    font-weight: bold;
+}
+/*Media Query for mobile*/
+@media(max-width:720px) {
+    .header h1 {
+        font-size: 26px;
+    }
+    .header-img {
+        width: 250px;
+    }
+}
