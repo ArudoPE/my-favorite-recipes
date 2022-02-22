@@ -1,0 +1,42 @@
+/*SHARED*/
+:root {
+    /*colors*/
+    --almost-black: rgb(14, 14, 14);
+    --almost-white: rgb(237, 237, 237);
+}
+body {
+    font-family: sans-serif;
+    background-color: var(--almost-black);
+    color: var(--almost-white);
+}
+.header,
+.footer {
+    text-align: center;
+}
+/*HEADER*/
+.header p a {
+    color: var(--almost-white);
+    font-weight: bold;
+}
+.header p a:hover {
+    color: green;
+    transition-duration: 0.4s;
+}
+.header-img {
+    height: auto;
+    width: 400px;
+}
+/*MAIN*/
+/*FOOTER*/
+.footer p {
+    font-weight: bold;
+}
+/*Media Query for mobile*/
+@media(max-width:720px) {
+    .header h1 {
+        font-size: 26px;
+    }
+    .header-img {
+        width: 250px;
+    }
+}

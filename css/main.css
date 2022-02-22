@@ -25,6 +25,10 @@ body {
     font-size: 20px;
     color: var(--almost-white);
 }
+.recipes-list-section a:hover {
+    color: green;
+    transition-duration: 0.4s;
+}
 .recipes-list-section li {
     margin-bottom: 5px;
     list-style: none;
