@@ -27,6 +27,9 @@ body {
     width: 400px;
 }
 /*MAIN*/
+.main section {
+    padding: 0 15px;
+}
 /*FOOTER*/
 .footer p {
     font-weight: bold;
