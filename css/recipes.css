@@ -2,12 +2,11 @@
 :root {
     /*colors*/
     --almost-black: rgb(14, 14, 14);
-    --almost-white: rgb(237, 237, 237);
 }
 body {
     font-family: sans-serif;
-    background-color: var(--almost-black);
-    color: var(--almost-white);
+    background-color: white;
+    color: var(--almost-black);
 }
 .header,
 .footer {
@@ -15,7 +14,7 @@ body {
 }
 /*HEADER*/
 .header p a {
-    color: var(--almost-white);
+    color: var(--almost-black);
     font-weight: bold;
 }
 .header p a:hover {
