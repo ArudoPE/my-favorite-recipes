@@ -15,7 +15,7 @@ body {
     background-color: white;
     color: var(--almost-black);
 }
-.main .main-subtitle,
+.main .main-text,
 .footer {
     text-align: center;
 }
@@ -35,10 +35,13 @@ body {
     color: rgb(212, 71, 6);
     font-size: 31px;
 }
-.header__navbar .header-nav__menu {
+.header_navbar .header-nav_menu {
     display: flex;
     list-style: none;
     gap: 10px;
+}
+.header__navbar .header__nav-button {
+    display: none;
 }
 .header-nav__menu li a {
     color: var(--almost-black);
@@ -46,13 +49,12 @@ body {
     text-decoration: none;
 }
 .header-nav__menu li a:hover {
-    text-decoration-line: underline;
     color: green;
     transition-duration: 0.4s;
 }
 /*MAIN*/
 .main .main__img-cover {
-    background-image: url("../img/food-hero.jpg");
+    background-image: url("../img/food-herov2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,9 +62,9 @@ body {
     height: 400px;
     margin: 0 auto;
 }
-.main .main-subtitle {
+.main .main-text p{
     margin-top: 20px;
-    text-align: center;
+    font-size: 20px;
 }
 .recipes-list-section a {
     font-size: 20px;
@@ -80,9 +82,6 @@ body {
     margin-bottom: 7px;
     list-style: none;
 }
-.main p {
-    font-size: 16px;
-}
 .main p span {
     font-weight: bold;
 }
@@ -94,7 +93,15 @@ body {
 @media(max-width:720px) {
     /*HEADER*/
     .header__navbar {
-    /*box-shadow: -12px -5px 20px 5px;*/
+        /*box-shadow: -12px -5px 20px 5px;*/
+        justify-content: space-between;
+    }
+    .header__navbar .header__nav-button {
+        display: block;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
     .header__navbar h1 a {
         font-size: 26px;

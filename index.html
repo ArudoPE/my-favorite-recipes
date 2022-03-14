@@ -3,9 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Important Meta Tags -->
+    <meta name="description" content="A website where you can find the best recipes">
+    <meta name="robots" content="index,follow">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="My Favorite Recipes">
+    <meta property="og:title" content="My favorite Recipes">
+    <meta property="og:url" content="https://arudope.github.io/my-favorite-recipes/">
+    <!-- End of important Meta Tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
@@ -17,6 +27,13 @@
     <header class="header">
         <nav class="header__navbar">
             <h1><a href="./index.html">My favorite Recipes</a></h1>
+            <button class="header__nav-button" aria-label="header-menu-button">
+                <svg viewBox="0 0 100 80" width="30" height="30">
+                    <rect width="100" height="20" rx="8"></rect>
+                    <rect y="30" width="100" height="20" rx="8"></rect>
+                    <rect y="60" width="100" height="20" rx="8"></rect>
+                </svg>
+            </button>
             <ul class="header-nav__menu">
                 <li><a href="#">All Recipes</a></li>
                 <li><a href="#">Dinner</a></li>
@@ -30,7 +47,7 @@
     <main class="main">
         <div class="main__img-cover">
         </div>
-        <div class="main-subtitle">
+        <div class="main-text">
             <p>Here I share my <span>favorite</span> recipes 🍛</p>
         </div>
         <section class="recipes-list-section">
