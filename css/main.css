@@ -35,7 +35,7 @@ body {
     color: rgb(212, 71, 6);
     font-size: 31px;
 }
-.header_navbar .header-nav_menu {
+.header__navbar .header-nav__menu {
     display: flex;
     list-style: none;
     gap: 10px;
