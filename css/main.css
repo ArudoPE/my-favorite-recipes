@@ -93,7 +93,7 @@ body {
 @media(max-width:720px) {
     /*HEADER*/
     .header__navbar {
-       /*box-shadow: -12px -5px 20px 5px;*/
+    /*box-shadow: -12px -5px 20px 5px;*/
     }
     .header__navbar h1 a {
         font-size: 26px;
