@@ -1,13 +1,9 @@
-/*SHARED*/
-:root {
-    /*colors*/
-    --almost-black: rgb(14, 14, 14);
-}
-body {
-    font-family: sans-serif;
-    background-color: white;
-    color: var(--almost-black);
-}
+/*Imports Section*/
+@import url('./components/reset.css');
+@import url('./components/shared.css');
+@import url('./components/header.css');
+@import url('./components/footer.css');
+
 .header,
 .footer {
     text-align: center;
@@ -28,10 +24,6 @@ body {
 /*MAIN*/
 .main section {
     padding: 0 15px;
-}
-/*FOOTER*/
-.footer p {
-    font-weight: bold;
 }
 /*Media Query for mobile*/
 @media(max-width:720px) {

@@ -1,0 +1,11 @@
+/*SHARED*/
+:root {
+    /*colors*/
+    --almost-black: rgb(14, 14, 14);
+    --almost-white: rgb(249, 249, 249);
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    color: var(--almost-black);
+}
